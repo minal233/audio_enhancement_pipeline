@@ -52,17 +52,6 @@ pip install torch torchaudio numpy scipy pandas streamlit scikit-learn matplotli
 streamlit run app.py
 ```
 
-## How It Works
-
-Audio → Feature extraction
-Extracts MFCCs, spectral centroid, rolloff, ZCR, RMS, etc.
-PyTorch model predicts
-Valence (positive ↔ negative) & Arousal (energy level)
-DSP chain applies:
-Always: Vocal presence boost (~3 kHz) for clear lyrics
-Mood-specific: High/low shelf filters based on emotion quadrant
-Final touch: Soft tanh saturation for warmth + proper headroom
-
 ## Credits
 
 Emotion model trained on the [PMEmo](https://github.com/HuiZhangDB/PMEmo)
