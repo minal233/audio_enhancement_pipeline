@@ -54,7 +54,8 @@ streamlit run app.py
 
 ## Credits
 
-Emotion model trained on the [PMEmo](https://github.com/HuiZhangDB/PMEmo)
+Emotion model trained on the [PMEmo](https://github.com/HuiZhangDB/PMEmo).
+
 Built step-by-step with lots of debugging and polishing 🔥
 
 Enjoy making your music sound emotionally smarter! 🎧 ✨
