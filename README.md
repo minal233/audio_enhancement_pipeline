@@ -29,7 +29,7 @@ streamlit run app.py
 ### 1. Clone the repo
 
 ```Bash
-git clone https://github.com/yourusername/audio_enhancement_pipeline.git
+git clone https://github.com/minal233/audio_enhancement_pipeline.git
 cd audio_enhancement_pipeline
 ```
 
